@@ -3,7 +3,7 @@
 from graphics import *
 
 def draw_circ(cX, cY, cRad, cCol, cWin):
-    circ = Circle(cX, cY, cRad)
+    circ = Circle(Point(cX, cY), cRad)
     circ.setFill(cCol)
     circ.draw(cWin)
 
